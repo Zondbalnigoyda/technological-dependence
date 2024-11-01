@@ -1,0 +1,70 @@
+body {
+    font-family: Inter, sans-serif; /* Семейство шрифтов */
+    font-size: 20px; /* Размер основного шрифта в <p></p>  */
+    background-color: #5988FF; /* Цвет фона веб-страницы */
+    color: #ffffff; /* Цвет основного текста */ 
+}
+
+@keyframes color-change {
+    0% {
+      color: rgb(254, 255, 254);
+    }
+  
+    25% {
+      color: rgb(201, 200, 200);
+    }
+
+    50% {
+        color: rgb(197, 195, 195);
+      }
+
+    75% {
+        color: rgb(125, 125, 125);
+      }
+  
+    100% {
+      color: rgb(63, 63, 63);
+    }
+}
+
+@keyframes cch2 {
+    0% {
+        color: rgb(254, 255, 254);
+    }
+    
+    25% {
+        color: rgb(201, 200, 200);
+    }
+  
+    50% {
+        color: rgb(197, 195, 195);
+    }
+  
+    75% {
+        color: rgb(125, 125, 125);
+    }
+    
+    100% {
+        color: rgb(63, 63, 63);
+    }
+}
+
+h1 {
+    color: #ffffff; 
+    font-size: 30px; 
+    animation: cch2 7s infinite;
+    font-family: Inter, sans-serif;
+    background:#D6FF6B; 
+    border: 30px outset #D6FF6B; 
+    text-decoration-color: #e168c3; 
+}
+h2 {
+    color: #ffffff; 
+    animation: color-change 7s infinite;
+    font-size: 30px; 
+    font-family: Inter, sans-serif;
+    background:#D6FF6B;
+    border: 30px outset #D6FF6B; 
+    text-decoration-color: #e168c3;
+}
+ 
